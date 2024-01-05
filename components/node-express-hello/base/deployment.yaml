@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: node-express-hello
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/arewm-tenant/build-nudge-example/node-express-hello@sha256:91799aad94211b5b66113871e3cf3838fbb953cc9917816b1c0b8fc1528f4880
+      - image: quay.io/redhat-user-workloads/arewm-tenant/build-nudge-example/node-express-hello@sha256:9e1e6eb40a41278b38fdbb09e5eebdcdb6e307e1805c18516f72cb2dd46e2bd3
         imagePullPolicy: Always
         name: container-image
         ports:
