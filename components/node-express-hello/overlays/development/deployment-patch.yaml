@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/arewm-tenant/build-nudge-example/node-express-hello@sha256:6c41003ce65493aec0ba91b7742e03139a834dba2afc50ac15423a70d95a25da
+      - image: quay.io/redhat-user-workloads/arewm-tenant/build-nudge-example/node-express-hello@sha256:55742b0bb398d2eccd44f59a625eb8864ac3c437fae4b2e596e5c0e556c7b008
         name: container-image
         resources: {}
 status: {}
